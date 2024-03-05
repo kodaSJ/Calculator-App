@@ -12,7 +12,7 @@ body{
 #card{
     font-family: Montserrat, sans-serif;
     background-color: rgb(58, 58, 58);
-    max-width:70%;
+    width:21rem;
     /* overflow: hidden; */
     border-radius:1em;
     margin:auto;
