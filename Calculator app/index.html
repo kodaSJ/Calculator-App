@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1 id="title">Calculator App</h1>
+    <div id="card">
+<!-- Display bar -->
+
+            <input id="result" readonly >
+<!--First row of buttons -->
+
+        <div id='btns'>
+            <button onclick="clearDisplay()" >C</button>
+            <button id="/">+/-</button>
+            <button id="%">%</button>
+            <button id="divide">&divide;</button>
+        <br>
+<!-- Second row of numbers -->  
+        
+            <button onclick="displayResults('7')" class="button" >7</button>
+            <button onclick="displayResults('8')">8</button>
+            <button onclick="displayResults('9')">9</button>
+            <button onclick="displayResults('&times')">&times;</button>
+       <br>
+<!-- Third row of buttons -->
+        
+            <button onclick="displayResults('4')">4</button>
+            <button onclick="displayResults('5')">5</button>
+            <button onclick="displayResults('6')">6</button>
+            <button onclick="displayResults('-')">-</button>
+        <br>
+<!-- Fourth row of button  -->
+        
+            <button onclick="displayResults('1')">1</button>
+            <button onclick="displayResults('2')">2</button>
+            <button onclick="displayResults('3')">3</button>
+            <button onclick="displayResults('+')">+</button>
+        <br>
+       
+            <button onclick="displayResults('0')">0</button>
+            <button onclick="displayResults('.')">.</button>
+            <button onclick="calculating()" id="equals">=</button>
+            
+        </div>
+    </div>
+</body>
+</html>

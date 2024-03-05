@@ -1,0 +1,70 @@
+﻿/* CSS Class Selector use '.' with the class name */
+/* CSS ID selector uses '#' with the id name */
+body{
+    background-color: rgb(49, 59, 81);
+    font-family: Montserrat;
+    color: whitesmoke;
+}
+#title{
+    font-weight: 200;
+    text-align:center;
+}
+#card{
+    font-family: Montserrat, sans-serif;
+    background-color: rgb(58, 58, 58);
+    max-width:70%;
+    /* overflow: hidden; */
+    border-radius:1em;
+    margin:auto;
+    box-shadow: 15px 15px 6px rgb(30, 30, 30);
+    
+}
+button{
+    border:none;
+    color:whitesmoke;
+    font-weight:540;
+    font-size:1.8em;
+    background-color:dimgrey;
+    border-radius: 1.5em;
+    width: 1.9em;
+    height:1.5em;
+    margin: 10px;
+    cursor: pointer;    
+}
+button:hover{
+    background-color:hsl(0, 0%, 60%)
+}
+.button:active{
+    background-color: rgb(193, 156, 23)
+}
+
+/* input element */
+#result{
+    /* width:16.7rem; */
+    max-width:80%;
+    /* width:100%; */
+    padding: 15px;
+    font-size:3.2em;
+    text-align:right;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    margin:13px;
+    background-color: rgba(105, 105, 105, 0.321);
+    border-color:rgba(90, 90, 90, 0.667);
+    color:whitesmoke;
+}
+#equals{
+    background-color:dimgrey;
+    height:1.5em;
+    width:4.5em;
+    margin:10px;
+    border-radius: 3.5em;
+    font-size:2em;
+    font-weight: bold;
+}
+#equals:hover{
+    background-color:hsl(0, 0%, 70%)
+}
+#equals:active{
+    background-color: rgb(193, 156, 23)
+}
