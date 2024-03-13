@@ -23,8 +23,7 @@ function deleteDigit(){
 function calculating(){
    //This function should calculate the total of the sum
    const display = document.getElementById("result");
-   //Use a switch statement to determine which function to call based on the operator ('+', '-', '/', '*')
-  
+   console.log(`${result.value} = ${eval(display.value)}`)
 }
 
 
