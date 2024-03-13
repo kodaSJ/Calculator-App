@@ -14,13 +14,12 @@
     <h1 id="title">Calculator App</h1>
     <div id="card">
 <!-- Display bar -->
-
             <input id="result" readonly >
 <!--First row of buttons -->
 
         <div id='btns'>
             <button onclick="clearDisplay()" >C</button>
-            <button id="/">+/-</button>
+            <button onclick="deleteDigit()">&leftarrow;</button>
             <button onclick="displayResults('%')">%</button>
             <button onclick="displayResults('&divide')">&divide;</button>
         <br>

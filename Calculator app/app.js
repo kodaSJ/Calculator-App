@@ -7,13 +7,20 @@ function displayResults(selected){
    display.value += selected;
 }
 
-function clearDisplay() {
+function clearDisplay(){
    //This function clears the result when 'C' is clicked 
    const display = document.getElementById("result");
    display.value = ''
 }
 
-function calculating() {
+function deleteDigit(){
+   //This function clears the last digit entered
+   const display = document.getElementById('result')
+   const del = display.value.toString().slice(0,-1)
+   display.value = del
+}
+
+function calculating(){
    //This function should calculate the total of the sum
    const display = document.getElementById("result");
    //Use a switch statement to determine which function to call based on the operator ('+', '-', '/', '*')
