@@ -1,7 +1,10 @@
 ﻿/* CSS Class Selector use '.' with the class name */
 /* CSS ID selector uses '#' with the id name */
+html{
+    height:100%;
+    background: linear-gradient(125deg, rgb(28, 43, 79) 0%, rgba(86,114,176,1) 45%, rgb(28, 43, 79) 100% );
+}
 body{
-    background-color: rgb(49, 59, 81);
     font-family: Montserrat;
     color: whitesmoke;
 }
@@ -11,50 +14,59 @@ body{
 }
 #card{
     font-family: Montserrat, sans-serif;
-    background-color: rgb(58, 58, 58);
+    background:linear-gradient(145deg, rgb(73, 72, 72), rgb(82, 82, 82), rgb(43, 42, 42));
     width:21rem;
-    /* overflow: hidden; */
     border-radius:1em;
     margin:auto;
-    box-shadow: 15px 15px 6px rgb(30, 30, 30);
-    
+    box-shadow: 12px 8px 9px rgb(34, 41, 59);
 }
 button{
-    border:none;
+    border:solid;
+    border-color:#4f5051;
     color:whitesmoke;
     font-weight:540;
     font-size:1.8em;
-    background-color:dimgrey;
+    background:radial-gradient( #8d9094 ,rgb(85, 85, 85));
     border-radius: 1.5em;
-    width: 1.9em;
+    width: 2em;
     height:1.5em;
     margin: 10px;
+    margin-left: 12px;
     cursor: pointer;    
 }
 button:hover{
-    background-color:hsl(0, 0%, 60%)
+    /* background-color:#6e8da9; */
+    background:#9ebbd5;
 }
-.button:active{
-    background-color: rgb(193, 156, 23)
+button:active{
+    background-color: rgba(34, 38, 165, 0.691);
 }
-
 /* input element */
 #result{
-    /* width:16.7rem; */
     max-width:80%;
-    /* width:100%; */
     padding: 15px;
     font-size:3.2em;
     text-align:right;
     border-top-left-radius:10px;
     border-top-right-radius:10px;
     margin:13px;
-    background-color: rgba(105, 105, 105, 0.321);
+    background:linear-gradient(145deg,rgb(61, 59, 59),rgb(113, 112, 112),rgb(58, 58, 58));
     border-color:rgba(90, 90, 90, 0.667);
     color:whitesmoke;
 }
+.key-btn{
+    /* background-color: #4e6f8d; */
+    background:radial-gradient( #6d8faa ,#4e6f8d);
+    /* border-color:#505c69d2; */
+    border-color:#496884;
+}
+.key-btn:hover{
+    background:#9ebbd5;
+}
 #equals{
-    background-color:dimgrey;
+    /* background-color: #4e6f8d; */
+    background:radial-gradient( #7da0ba,#4e6f8d);
+    border-color:#515f6c;
     height:1.5em;
     width:4.5em;
     margin:10px;
@@ -63,8 +75,18 @@ button:hover{
     font-weight: bold;
 }
 #equals:hover{
-    background-color:hsl(0, 0%, 70%)
+    background:#9ebbd5;
 }
 #equals:active{
-    background-color: rgb(193, 156, 23)
+    /* background-color: rgb(193, 156, 23) */
+    /* background-color:rgba(74, 115, 190, 0.691); */
+    background-color:rgba(74, 115, 190, 0.691)
 }
+
+
+/* Colour options for the calculator key buttons*/
+
+    /* background-color:#6c9ca8; */
+    /* background-color:#88b2bd; */
+
+
