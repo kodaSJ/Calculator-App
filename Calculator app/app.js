@@ -24,6 +24,7 @@ function calculating(){
    //This function should calculate the total of the sum
    const display = document.getElementById("result");
    console.log(`${result.value} = ${eval(display.value)}`)
+   result.value = eval(display.value)
 }
 
 
